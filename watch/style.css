@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;   
+}
+html, body, .container{
+    height: 100%;
+}
+body, h1, h2, h3, p {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-weight: 300;
+    color: #161515;
+}
+a {
+    text-decoration: none;  
+    color: #161515;  
+}
+.container {
+    margin: 0 auto;
+    max-width: 1430px;
+    padding: 0 15px;
+}
+.main {
+    display: flex;
+    gap: 10px;
+    background-color: #F8F8F8;
+    padding: 0 15px 211px 15px;
+    justify-content: center;
+}
+.main__info {
+    max-width: 640px;
+}
+.main__logo {
+    margin-top: 100px;
+}
+.main__logo:hover {
+    text-decoration: underline;
+}
+.text {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 50px;
+    color: #161515;
+    min-height: 196px;
+}
+.main__text {
+    padding-bottom: 61px;
+}
+.main__buttons {
+    display: flex;
+    font-size: 32px;
+    line-height: 29.44px;
+    flex-wrap: wrap;
+}
+.main__btn {
+    background-color: #161515;
+    padding: 30px 74px;
+    color: #FFFFFF;
+}
+.main__btn:hover {
+    text-decoration: underline;
+}
+.main__btn:active {
+    text-decoration: none;
+    opacity: 0.7;
+    background-color: #72520e;
+}
+.main__price {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 28px rgba(214, 214, 214, 0.25);
+    color: #272727;
+    padding: 30px 28px;
+}
+h1 {
+    font-weight: 300;
+    font-size: 250px;
+    line-height: 230px;
+    color: #272727;
+    padding: 53px 0 43px 0;
+}
+.main__img {
+    max-width: 408px;
+}
+.main__img img {
+    width: 100%;
+}
+.models {
+    display: flex;
+    flex-direction: column;
+    max-width: 532px;
+    text-align: center;
+    margin-inline: auto;
+    padding-bottom: 142px;    
+}
+.models__subtitle {
+    font-size: 24px;
+    line-height: 45px;
+}
+h2, h3 {
+    font-weight: 400;
+    color: #000;
+}
+h2 {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 112.5%;
+}
+.models__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.models__image {
+    background-color: #F8F8F8;
+    height: 630px;
+    margin-top: 85px;
+    margin-bottom: 67px;     
+}
+._first {
+    max-width: 417px;
+    padding: 110px 60px 110px 71px;
+}
+._second{
+    max-width: 496px;
+    padding: 65px 2px;
+}
+.models__image img {
+    max-width: 100%;
+    object-fit: contain;
+}
+h3 {
+    font-size: 32px;
+    line-height: 29px;
+    margin-bottom: 17px
+}
+.models__description {
+    padding-top: 59px;
+}
+.desc__title {
+    position: relative;
+}
+.desc__title::before {
+    content: '';
+    display: block;
+    background-color: #707070;
+    height: 1px;
+    width: 178.03px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.desc__text {
+    font-size: 24px;
+    line-height: 40.8px;
+    max-width: 515px;
+    padding-top: 49px;
+}
+.models__description a {
+    font-weight: 500;
+    color: #BB8B5D;
+    text-decoration: underline;
+}
+.models__description a:hover {
+    transform: scale(1.1) translate(4px);
+    transition: .2s all ease-in-out;
+    display: inline-block;    
+}
+@media screen and (max-width:992px) {
+    .container {
+        max-width: 960px;
+        padding-bottom: 50px;
+    }
+    .main {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    .main__logo {
+    margin-top: 0px;        
+    }
+    .main__info {
+        margin-inline: auto;
+        text-align: justify;
+    }
+    .main__buttons {
+        justify-content: center;
+    }
+    .models {
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+    h1 {
+        font-size: 100px;
+        line-height: 100px;
+        text-align: center;
+        padding: 23px 0;
+    }
+    .main__img img{
+        max-height: 500px;
+    }
+    .text {
+        min-height: 10px;
+    }
+    .models__image {
+        margin-top: 45px;        
+    }
+}
+@media screen and (max-width:576px) {
+    .container {
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 80px;
+        line-height: 70px;
+        text-align: center;
+    }
+    .text {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .models {
+        width: auto;
+    }
+    .models__image {
+        margin-top: 20px;
+        margin-bottom: 20px;        
+    }
+    .models__description {
+        padding-top: 40px;
+    }
+    .desc__text {
+        font-size: 15px;
+        line-height: 30.8px;        
+    }
+}
+
+
+
+
+    
+                                                                                                                                                                                                                                                             
